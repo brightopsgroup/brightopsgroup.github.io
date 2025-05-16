@@ -1,0 +1,160 @@
+@import '@fontsource/archivo-black';
+@import '@fontsource/open-sans';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 60 12% 93%; /* Ivory */
+  --foreground: 205 4% 25%; /* Onyx */
+  --muted: 60 4.8% 85%;
+  --muted-foreground: 205 4% 40%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 205 4% 25%;
+  --card: 0 0% 100%;
+  --card-foreground: 205 4% 25%;
+  --border: 205 4% 85%;
+  --input: 205 4% 85%;
+  --primary: 24 100% 63%; /* Pumpkin */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 60 12% 93%; /* Ivory */
+  --secondary-foreground: 205 4% 25%;
+  --accent: 24 100% 63%; /* Pumpkin */
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 24 100% 63%; /* Pumpkin */
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 205 4% 25%; /* Onyx */
+  --foreground: 60 12% 93%; /* Ivory */
+  --muted: 205 4% 35%;
+  --muted-foreground: 205 4% 80%;
+  --popover: 205 4% 25%;
+  --popover-foreground: 60 12% 93%;
+  --card: 205 4% 25%;
+  --card-foreground: 60 12% 93%;
+  --border: 205 4% 35%;
+  --input: 205 4% 35%;
+  --primary: 24 100% 63%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 205 4% 35%;
+  --secondary-foreground: 60 12% 93%;
+  --accent: 24 100% 63%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 205 4% 80%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-opensans antialiased bg-ivory text-onyx;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-archivo;
+  }
+  
+  section {
+    @apply py-20;
+  }
+}
+
+@layer components {
+  .bg-ivory {
+    background-color: #f6f7eb;
+  }
+
+  .bg-pumpkin {
+    background-color: #ff8c42;
+  }
+
+  .bg-onyx {
+    background-color: #393e41;
+  }
+
+  .text-ivory {
+    color: #f6f7eb;
+  }
+
+  .text-pumpkin {
+    color: #ff8c42;
+  }
+
+  .text-onyx {
+    color: #393e41;
+  }
+
+  .border-pumpkin {
+    border-color: #ff8c42;
+  }
+
+  .border-onyx {
+    border-color: #393e41;
+  }
+
+  .nav-link {
+    position: relative;
+    @apply text-lg;
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff8c42;
+    transition: width 0.3s ease;
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
+  .btn-primary {
+    @apply bg-pumpkin text-white px-4 py-2 rounded-md font-opensans font-medium transition-all duration-300;
+  }
+
+  .btn-primary:hover {
+    @apply transform -translate-y-1 shadow-md;
+  }
+
+  .service-card {
+    @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300;
+  }
+
+  .service-card:hover {
+    @apply transform -translate-y-2 shadow-lg;
+  }
+
+  .font-opensans {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .font-archivo {
+    font-family: 'Archivo Black', sans-serif;
+  }
+  
+  .bg-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ff8c42' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  
+  .shadow-glow {
+    box-shadow: 0 0 15px 2px rgba(255, 140, 66, 0.3);
+  }
+  
+  .opacity-05 {
+    opacity: 0.05;
+  }
+}

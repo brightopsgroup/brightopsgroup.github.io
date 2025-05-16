@@ -1,0 +1,184 @@
+import { Link } from 'wouter';
+import IconSVG from './IconSVG';
+
+export default function Tools() {
+  return (
+    <main className="min-h-screen bg-ivory">
+      {/* Tools Hero */}
+      <section className="pt-24 md:pt-32 pb-16 md:pb-24 bg-pattern">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-archivo font-bold text-onyx mb-6 leading-tight">
+              Our GitHub Tools
+            </h1>
+            <p className="text-lg md:text-xl text-onyx/80 mb-8 max-w-xl mx-auto">
+              Free open-source CLI tools to help you manage costs and security in your cloud environments.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+              <a href="/" className="inline-block px-6 py-3 text-lg border-2 border-pumpkin text-pumpkin rounded-md hover:bg-pumpkin/10 transition-colors w-full sm:w-auto text-center">
+                Back to Home
+              </a>
+              <a 
+                href="https://github.com/BrightOpsGroup" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn-primary inline-block px-6 py-3 text-lg w-full sm:w-auto text-center"
+              >
+                Visit Our GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* ROI - FinOps CLI */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
+              <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 bg-pumpkin/10 rounded-lg flex items-center justify-center">
+                <IconSVG type="cost" className="w-16 h-16 md:w-20 md:h-20" />
+              </div>
+              
+              <div className="flex-1">
+                <h2 className="text-3xl font-archivo font-bold text-onyx mb-4">Roi - FinOps CLI</h2>
+                <p className="text-lg text-onyx/80 mb-6">
+                  Roi is our open-source FinOps CLI tool that helps you identify cost-saving opportunities across your cloud environments.
+                  It analyzes your cloud resources and provides actionable recommendations to optimize spending.
+                </p>
+                
+                <div className="bg-ivory rounded-lg p-6 mb-6">
+                  <h3 className="font-archivo font-semibold text-lg mb-3">Key Features:</h3>
+                  <ul className="space-y-2 text-onyx/80 pl-6 list-disc">
+                    <li>Identifies idle and underutilized resources</li>
+                    <li>Recommends right-sizing opportunities</li>
+                    <li>Analyzes storage usage patterns</li>
+                    <li>Suggests reserved instance purchases</li>
+                    <li>Provides estimated monthly savings</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-onyx/5 rounded-lg p-6 mb-6 font-mono text-sm overflow-x-auto">
+                  <pre>
+{`# Install the Roi CLI
+$ npm install -g @brightops/roi-cli
+
+# Analyze your AWS environment
+$ roi analyze --provider aws
+
+# Get cost-saving recommendations
+$ roi recommend --threshold $100`}
+                  </pre>
+                </div>
+                
+                <div className="flex space-x-4">
+                  <a 
+                    href="https://github.com/BrightOpsGroup/roi" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center text-pumpkin font-medium hover:underline"
+                  >
+                    <i className="fab fa-github mr-2"></i>
+                    GitHub Repository
+                  </a>
+                  <a 
+                    href="https://www.npmjs.com/package/@brightops/roi-cli" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center text-pumpkin font-medium hover:underline"
+                  >
+                    <i className="fab fa-npm mr-2"></i>
+                    NPM Package
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Security CLI */}
+      <section className="py-16 md:py-24 bg-ivory">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
+              <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 bg-pumpkin/10 rounded-lg flex items-center justify-center">
+                <IconSVG type="security" className="w-16 h-16 md:w-20 md:h-20" />
+              </div>
+              
+              <div className="flex-1">
+                <h2 className="text-3xl font-archivo font-bold text-onyx mb-4">Security CLI</h2>
+                <p className="text-lg text-onyx/80 mb-6">
+                  Our Security CLI is a comprehensive tool for scanning your cloud infrastructure for common security
+                  misconfigurations and compliance issues. It helps you identify and fix security risks before they become problems.
+                </p>
+                
+                <div className="bg-white rounded-lg p-6 mb-6">
+                  <h3 className="font-archivo font-semibold text-lg mb-3">Key Features:</h3>
+                  <ul className="space-y-2 text-onyx/80 pl-6 list-disc">
+                    <li>Automated security scanning against best practices</li>
+                    <li>IAM policy and permission analysis</li>
+                    <li>Network security configuration review</li>
+                    <li>Compliance checks (PCI, HIPAA, SOC2)</li>
+                    <li>Vulnerability detection and reporting</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-onyx/5 rounded-lg p-6 mb-6 font-mono text-sm overflow-x-auto">
+                  <pre>
+{`# Install the Security CLI
+$ npm install -g @brightops/security-cli
+
+# Scan your cloud environment
+$ security-scan --provider aws --region us-west-2
+
+# Generate a compliance report
+$ security-scan --report compliance --format pdf`}
+                  </pre>
+                </div>
+                
+                <div className="flex space-x-4">
+                  <a 
+                    href="https://github.com/BrightOpsGroup/security-cli" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center text-pumpkin font-medium hover:underline"
+                  >
+                    <i className="fab fa-github mr-2"></i>
+                    GitHub Repository
+                  </a>
+                  <a 
+                    href="https://www.npmjs.com/package/@brightops/security-cli" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center text-pumpkin font-medium hover:underline"
+                  >
+                    <i className="fab fa-npm mr-2"></i>
+                    NPM Package
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Call to action */}
+      <section className="py-16 md:py-20 bg-pumpkin text-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-archivo font-bold mb-6">Want Expert Help with These Tools?</h2>
+            <p className="text-lg md:text-xl mb-8">
+              Our team can help you implement and customize these tools for your specific cloud environment. 
+              We also offer training sessions to help your team get the most out of our tools.
+            </p>
+            <a href="/#contact" className="inline-block bg-white text-pumpkin px-8 py-3 rounded-md font-archivo font-medium text-lg hover:bg-opacity-90 transition-all">
+              Get in Touch
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
