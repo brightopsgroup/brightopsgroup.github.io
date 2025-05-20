@@ -11,14 +11,14 @@ export default function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl xl:text-7xl font-archivo font-bold text-onyx mb-6 leading-tight">
-            Your Burn Rate's <span className="text-pumpkin relative">
+            Your AWS Bill's <span className="text-pumpkin relative">
               Worst Enemy
               <span className="absolute bottom-2 left-0 w-full h-3 bg-pumpkin/20 -z-10"></span>
             </span>.<br className="hidden md:block" /> Your Security's New Best Friend.
           </h1>
           
           <p className="text-lg md:text-xl text-onyx/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-            We help startups kill cloud waste, lock down their infra, and keep both the CFO and CISO from sending those panic Slack messages.
+            We help startups kill AWS waste, lock down their infra, and keep both the CFO and CISO from sending those panic Slack messages.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="mt-16 flex flex-wrap justify-center items-center gap-4 text-onyx/70">
             <div className="flex items-center">
               <i className="fas fa-check-circle text-pumpkin mr-2"></i>
-              <span>Save on cloud costs</span>
+              <span>Save on AWS costs</span>
             </div>
             <div className="w-1.5 h-1.5 rounded-full bg-onyx/30 hidden sm:block"></div>
             <div className="flex items-center">
