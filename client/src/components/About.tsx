@@ -4,7 +4,7 @@ export default function About() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-archivo font-bold text-onyx mb-6">Who's Behind This?</h2>
+            <h2 className="text-3xl md:text-4xl font-archivo font-bold text-onyx mb-6">Who's Slashing Your Cloud Bill?</h2>
             <p className="text-lg text-onyx/80 mb-6">
               We're BrightOps Group – a bunch of cloud nerds who actually make this tech stuff fun.
             </p>

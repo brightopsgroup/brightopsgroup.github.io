@@ -3,7 +3,7 @@ export default function Testimonials() {
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-archivo font-bold text-onyx mb-4">Startups Who Dig Us</h2>
+          <h2 className="text-3xl md:text-4xl font-archivo font-bold text-onyx mb-4">People Who Stopped Crying Over Their AWS Bill</h2>
           <p className="text-lg text-onyx/80 max-w-2xl mx-auto">
             Don't just take our word for it. Here's what folks say after working with us.
           </p>
@@ -17,7 +17,7 @@ export default function Testimonials() {
               <i className="fas fa-quote-left text-3xl"></i>
             </div>
             <p className="text-onyx/80 mb-6 text-lg">
-              "These folks are cloud wizards! Our AWS bill dropped by 30% after just two weeks of working with BrightOps. Plus they explain everything in normal human language."
+              "BrightOps saved us enough to extend runway by 3 months. Worth it for that alone."
             </p>
             <div className="flex items-center">
               <div className="w-12 h-12 bg-pumpkin/20 rounded-full flex items-center justify-center text-pumpkin">

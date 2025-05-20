@@ -10,21 +10,15 @@ export default function Hero() {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          <div className="inline-block mb-4 px-4 py-2 rounded-full bg-pumpkin/10 text-pumpkin font-medium">
-            Cloud Consulting That Actually Makes Sense
-          </div>
-          
           <h1 className="text-4xl md:text-6xl xl:text-7xl font-archivo font-bold text-onyx mb-6 leading-tight">
-            Cloud That <span className="text-pumpkin relative">
-              Doesn't Suck
+            Your Burn Rate's <span className="text-pumpkin relative">
+              Worst Enemy
               <span className="absolute bottom-2 left-0 w-full h-3 bg-pumpkin/20 -z-10"></span>
-            </span> <br className="hidden md:block" />For Startups
+            </span>.<br className="hidden md:block" /> Your Runway's New Best Friend.
           </h1>
           
           <p className="text-lg md:text-xl text-onyx/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-            We're the cloud consultants who help startups scale without the headaches. 
-            Our secret sauce? Cloud architecture that actually makes sense, costs that don't make you cry, 
-            and security that keeps the bad guys out.
+            We help startups kill cloud waste, stretch their funding, and keep the CFO from sending that Slack message.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -32,13 +26,13 @@ export default function Hero() {
               href="#contact" 
               className="btn-primary inline-block px-8 py-4 text-lg w-full sm:w-auto text-center transform transition-all duration-300 hover:scale-105 rounded-lg shadow-lg hover:shadow-glow"
             >
-              Let's Chat!
+              Let's Cut Costs →
             </a>
             <a 
-              href="#services" 
+              href="/tools" 
               className="inline-block px-8 py-4 text-lg border-2 border-pumpkin text-pumpkin rounded-lg hover:bg-pumpkin/10 transition-all w-full sm:w-auto text-center transform hover:-translate-y-1"
             >
-              Cool Stuff We Do
+              Show Me the Tools →
             </a>
           </div>
           

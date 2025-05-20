@@ -3,9 +3,9 @@ export default function Services() {
     <section id="services" className="py-16 md:py-24 bg-ivory">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-archivo font-bold text-onyx mb-4">Cool Stuff We Do</h2>
+          <h2 className="text-3xl md:text-4xl font-archivo font-bold text-onyx mb-4">Stuff That Buys You Time (and Peace)</h2>
           <p className="text-lg text-onyx/80 max-w-2xl mx-auto">
-            Cloud magic for startups who want to grow without the tech headaches. We've got your back from seed round all the way to Series A/B and beyond.
+            We're your cloud crew—cutting spend, upgrading infra, and keeping your startup alive long enough to actually raise that next round.
           </p>
         </div>
         
@@ -15,9 +15,9 @@ export default function Services() {
             <div className="text-pumpkin mb-4">
               <i className="fas fa-cloud text-3xl"></i>
             </div>
-            <h3 className="text-xl font-archivo font-semibold text-onyx mb-3">Cloud Architecture That Makes Sense</h3>
+            <h3 className="text-xl font-archivo font-semibold text-onyx mb-3">🧠 Cloud Architecture That Makes Sense</h3>
             <p className="text-onyx/70 flex-grow">
-              We'll build you a cloud setup that doesn't require a PhD to understand. Scalable, reliable, and actually makes sense for your business.
+              We build startup-friendly infrastructure that works — no PhD required. Think fast, reliable, and ready to scale without torching your budget.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-100">
               <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Tell me more →</a>
@@ -29,9 +29,9 @@ export default function Services() {
             <div className="text-pumpkin mb-4">
               <i className="fas fa-chart-line text-3xl"></i>
             </div>
-            <h3 className="text-xl font-archivo font-semibold text-onyx mb-3">Cloud Bills That Don't Make You Cry</h3>
+            <h3 className="text-xl font-archivo font-semibold text-onyx mb-3">📉 Cloud Bills That Don't Make You Cry</h3>
             <p className="text-onyx/70 flex-grow">
-              Say goodbye to surprise cloud bills that make your CFO panic. We'll optimize your spend without cutting corners on performance.
+              No more mystery invoices or surprise charges. We find the leaks, seal the holes, and give your runway a fighting chance.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-100">
               <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Yes please →</a>
@@ -43,9 +43,9 @@ export default function Services() {
             <div className="text-pumpkin mb-4">
               <i className="fas fa-shield-alt text-3xl"></i>
             </div>
-            <h3 className="text-xl font-archivo font-semibold text-onyx mb-3">Security Without The Paranoia</h3>
+            <h3 className="text-xl font-archivo font-semibold text-onyx mb-3">🔒 Security Without The Paranoia</h3>
             <p className="text-onyx/70 flex-grow">
-              Keep the bad guys out without going overboard. We'll set up sensible security and compliance that protects your data and keeps your customers happy.
+              We keep the compliance sharks happy without sinking your dev team. Sensible security built for humans.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-100">
               <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Lock it down →</a>
@@ -57,9 +57,9 @@ export default function Services() {
             <div className="text-pumpkin mb-4">
               <i className="fas fa-cogs text-3xl"></i>
             </div>
-            <h3 className="text-xl font-archivo font-semibold text-onyx mb-3">DevOps & FinOps Magic</h3>
+            <h3 className="text-xl font-archivo font-semibold text-onyx mb-3">⚙️ DevOps & FinOps Magic</h3>
             <p className="text-onyx/70 flex-grow">
-              Automate all the boring stuff so your team can focus on what matters. We'll make your deployment pipeline smooth and your finance team happy.
+              Automate, optimize, and stop duct-taping infra together. We give your team the tools to move fast and stay sane.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-100">
               <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Show me how →</a>
