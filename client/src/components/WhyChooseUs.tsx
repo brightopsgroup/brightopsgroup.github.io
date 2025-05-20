@@ -24,11 +24,11 @@ export default function WhyChooseUs() {
             <div className="border border-pumpkin rounded-lg p-6 hover:bg-onyx/80 transition-colors hover:-translate-y-1 transform hover:shadow-glow">
               <div className="flex items-start">
                 <div className="mt-1 mr-4 text-pumpkin">
-                  <i className="fas fa-cloud text-2xl"></i>
+                  <i className="fas fa-shield-alt text-2xl"></i>
                 </div>
                 <div>
-                  <h3 className="font-archivo font-semibold text-lg mb-2">Multi-Cloud Wizards</h3>
-                  <p className="text-ivory/70">AWS, Azure, GCP? We speak them all fluently. No bias, just what's right for your business.</p>
+                  <h3 className="font-archivo font-semibold text-lg mb-2">Security First</h3>
+                  <p className="text-ivory/70">CISSP, OSCP, and AWS security certified. We speak both security and startup.</p>
                 </div>
               </div>
             </div>
@@ -36,11 +36,11 @@ export default function WhyChooseUs() {
             <div className="border border-pumpkin rounded-lg p-6 hover:bg-onyx/80 transition-colors hover:-translate-y-1 transform hover:shadow-glow">
               <div className="flex items-start">
                 <div className="mt-1 mr-4 text-pumpkin">
-                  <i className="fas fa-dollar-sign text-2xl"></i>
+                  <i className="fas fa-cloud text-2xl"></i>
                 </div>
                 <div>
-                  <h3 className="font-archivo font-semibold text-lg mb-2">We Love Saving Money</h3>
-                  <p className="text-ivory/70">We get weirdly excited about finding cloud savings. Your investors will thank us.</p>
+                  <h3 className="font-archivo font-semibold text-lg mb-2">AWS Experts</h3>
+                  <p className="text-ivory/70">We live and breathe AWS. From cost optimization to security, we know it inside and out.</p>
                 </div>
               </div>
             </div>

@@ -10,7 +10,7 @@ export default function CallToAction() {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-4xl relative z-10">
         <h2 className="text-3xl md:text-5xl font-archivo font-bold mb-6 leading-tight">
-          Let's Give Your Burn Rate <span className="underline decoration-ivory decoration-4 underline-offset-4">the Boot</span>
+          Let's Give Your <span className="underline decoration-ivory decoration-4 underline-offset-4">Burn Rate</span> and <span className="underline decoration-ivory decoration-4 underline-offset-4">Security</span> a Makeover
         </h2>
         <p className="text-lg md:text-xl mb-12 mx-auto opacity-90 max-w-3xl">
           Let's chat about how we can help your startup save money, tighten security, 
@@ -43,7 +43,7 @@ export default function CallToAction() {
           </div>
           <div className="flex items-center justify-center bg-white/10 px-6 py-4 rounded-lg backdrop-blur-sm">
             <i className="fas fa-check-circle text-xl mr-3 text-ivory"></i>
-            <span className="text-lg font-medium">Real human experts</span>
+            <span className="text-lg font-medium">Certified experts</span>
           </div>
         </div>
       </div>

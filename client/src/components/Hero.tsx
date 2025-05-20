@@ -14,11 +14,11 @@ export default function Hero() {
             Your Burn Rate's <span className="text-pumpkin relative">
               Worst Enemy
               <span className="absolute bottom-2 left-0 w-full h-3 bg-pumpkin/20 -z-10"></span>
-            </span>.<br className="hidden md:block" /> Your Runway's New Best Friend.
+            </span>.<br className="hidden md:block" /> Your Security's New Best Friend.
           </h1>
           
           <p className="text-lg md:text-xl text-onyx/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-            We help startups kill cloud waste, stretch their funding, and keep the CFO from sending that Slack message.
+            We help startups kill cloud waste, lock down their infra, and keep both the CFO and CISO from sending those panic Slack messages.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -26,7 +26,7 @@ export default function Hero() {
               href="#contact" 
               className="btn-primary inline-block px-8 py-4 text-lg w-full sm:w-auto text-center transform transition-all duration-300 hover:scale-105 rounded-lg shadow-lg hover:shadow-glow"
             >
-              Let's Cut Costs →
+              Let's Talk Security →
             </a>
             <a 
               href="/tools" 
@@ -44,7 +44,7 @@ export default function Hero() {
             <div className="w-1.5 h-1.5 rounded-full bg-onyx/30 hidden sm:block"></div>
             <div className="flex items-center">
               <i className="fas fa-check-circle text-pumpkin mr-2"></i>
-              <span>Improve security</span>
+              <span>Lock down security</span>
             </div>
             <div className="w-1.5 h-1.5 rounded-full bg-onyx/30 hidden sm:block"></div>
             <div className="flex items-center">
