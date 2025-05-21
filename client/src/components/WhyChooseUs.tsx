@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
                 </div>
                 <div>
                   <h3 className="font-archivo font-semibold text-lg mb-2">Security First</h3>
-                  <p className="text-ivory/70">CISSP, OSCP, and AWS security certified. We speak both security and startup.</p>
+                  <p className="text-ivory/70">We speak both security and startup.</p>
                 </div>
               </div>
             </div>

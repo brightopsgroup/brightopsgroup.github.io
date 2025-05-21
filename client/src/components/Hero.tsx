@@ -10,11 +10,9 @@ export default function Hero() {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl xl:text-7xl font-archivo font-bold text-onyx mb-6 leading-tight">
-            Your AWS Bill's <span className="text-pumpkin relative">
-              Worst Enemy
-              <span className="absolute bottom-2 left-0 w-full h-3 bg-pumpkin/20 -z-10"></span>
-            </span>.<br className="hidden md:block" /> Your Security's New Best Friend.
+          <h1 className="text-3xl md:text-5xl xl:text-6xl font-archivo font-bold text-onyx mb-6 leading-tight">
+            Your AWS Bill's <span className="text-pumpkin">Worst Enemy</span>.<br className="block" />
+            Your Security's New <span className="text-pumpkin">Best Friend</span>.
           </h1>
           
           <p className="text-lg md:text-xl text-onyx/80 mb-12 max-w-2xl mx-auto leading-relaxed">
@@ -26,13 +24,13 @@ export default function Hero() {
               href="#contact" 
               className="btn-primary inline-block px-8 py-4 text-lg w-full sm:w-auto text-center transform transition-all duration-300 hover:scale-105 rounded-lg shadow-lg hover:shadow-glow"
             >
-              Let's Talk Security →
+              Cut AWS Costs
             </a>
             <a 
               href="/tools" 
               className="inline-block px-8 py-4 text-lg border-2 border-pumpkin text-pumpkin rounded-lg hover:bg-pumpkin/10 transition-all w-full sm:w-auto text-center transform hover:-translate-y-1"
             >
-              Show Me the Tools →
+              Get Secured
             </a>
           </div>
           

@@ -20,7 +20,7 @@ export default function Services() {
               We build startup-friendly AWS infrastructure that works — no PhD required. Think fast, reliable, and ready to scale without torching your budget.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-100">
-              <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Tell me more →</a>
+              <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Tell me more</a>
             </div>
           </div>
           
@@ -34,7 +34,7 @@ export default function Services() {
               No more mystery AWS invoices or surprise charges. We find the leaks, seal the holes, and give your runway a fighting chance.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-100">
-              <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Yes please →</a>
+              <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Yes please</a>
             </div>
           </div>
           
@@ -48,7 +48,7 @@ export default function Services() {
               We keep the compliance sharks happy without sinking your dev team. Pen testing, hardening, and AWS security that actually makes sense for startups.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-100">
-              <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Lock it down →</a>
+              <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Lock it down</a>
             </div>
           </div>
           
@@ -62,7 +62,7 @@ export default function Services() {
               Automate, optimize, and stop duct-taping AWS infra together. We give your team the tools to move fast and stay secure.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-100">
-              <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Show me how →</a>
+              <a href="#contact" className="inline-block text-pumpkin font-medium hover:underline">Show me how</a>
             </div>
           </div>
         </div>

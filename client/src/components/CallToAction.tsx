@@ -22,13 +22,13 @@ export default function CallToAction() {
             href="#contact" 
             className="w-full sm:w-auto inline-block bg-white text-pumpkin px-8 py-4 rounded-lg font-archivo font-medium text-lg hover:bg-opacity-95 transition-all shadow-lg hover:-translate-y-1 focus:ring-2 focus:ring-white"
           >
-            Cut AWS Costs →
+            Cut AWS Costs
           </a>
           <a 
             href="#contact" 
             className="w-full sm:w-auto inline-block bg-transparent text-white px-8 py-4 rounded-lg font-archivo font-medium text-lg border-2 border-white hover:bg-white/10 transition-all transform hover:-translate-y-1 focus:ring-2 focus:ring-white"
           >
-            Lock Down Security →
+            Lock Down Security
           </a>
         </div>
         
