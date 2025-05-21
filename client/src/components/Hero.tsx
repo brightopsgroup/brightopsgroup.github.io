@@ -11,8 +11,10 @@ export default function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-5xl xl:text-6xl font-archivo font-bold text-onyx mb-6 leading-tight">
-            Your AWS Bill's <span className="text-pumpkin">Worst Enemy</span>.<br className="block" />
-            Your Security's New <span className="text-pumpkin">Best Friend</span>.
+            Your AWS Bill's<br />
+            <span className="text-pumpkin">Worst Enemy</span>.<br />
+            Your Security's New<br />
+            <span className="text-pumpkin">Best Friend</span>.
           </h1>
           
           <p className="text-lg md:text-xl text-onyx/80 mb-12 max-w-2xl mx-auto leading-relaxed">
