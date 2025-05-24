@@ -39,8 +39,8 @@ export default function WhyChooseUs() {
                   <i className="fas fa-cloud text-2xl"></i>
                 </div>
                 <div>
-                  <h3 className="font-archivo font-semibold text-lg mb-2">AWS Experts</h3>
-                  <p className="text-ivory/70">We live and breathe AWS. From cost optimization to security, we know it inside and out.</p>
+                  <h3 className="font-archivo font-semibold text-lg mb-2">Cloud Experts</h3>
+                  <p className="text-ivory/70">We live and breathe cloud platforms. From cost optimization to security, we know them inside and out.</p>
                 </div>
               </div>
             </div>

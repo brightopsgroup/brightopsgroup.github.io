@@ -13,7 +13,7 @@ export default function CallToAction() {
           Ready to <span className="underline decoration-ivory decoration-4 underline-offset-4">Slash Costs</span> or <span className="underline decoration-ivory decoration-4 underline-offset-4">Lock Down Security</span>?
         </h2>
         <p className="text-lg md:text-xl mb-12 mx-auto opacity-90 max-w-3xl">
-          Whether you're bleeding money on AWS or losing sleep over security, we've got your back. 
+          Whether you're bleeding money on cloud costs or losing sleep over security, we've got your back. 
           Let's chat about how we can help your startup thrive.
         </p>
         
@@ -22,7 +22,7 @@ export default function CallToAction() {
             href="#contact" 
             className="w-full sm:w-auto inline-block bg-white text-pumpkin px-8 py-4 rounded-lg font-archivo font-medium text-lg hover:bg-opacity-95 transition-all shadow-lg hover:-translate-y-1 focus:ring-2 focus:ring-white"
           >
-            Cut AWS Costs
+            Cut Cloud Costs
           </a>
           <a 
             href="#contact" 

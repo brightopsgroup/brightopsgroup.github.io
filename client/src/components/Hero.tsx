@@ -11,14 +11,14 @@ export default function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-5xl xl:text-6xl font-archivo font-bold text-onyx mb-6 leading-tight">
-            Your AWS Bill's<br />
+            Your Cloud Bill's<br />
             <span className="text-pumpkin">Worst Enemy</span>.<br />
             Your Security's New<br />
             <span className="text-pumpkin">Best Friend</span>.
           </h1>
           
           <p className="text-lg md:text-xl text-onyx/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-            We help startups kill AWS waste, lock down their infra, and keep both the CFO and CISO from sending those panic Slack messages.
+            We help startups kill cloud waste, lock down their infra, and keep both the CFO and CISO from sending those panic Slack messages.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -26,7 +26,7 @@ export default function Hero() {
               href="#contact" 
               className="btn-primary inline-block px-8 py-4 text-lg w-full sm:w-auto text-center transform transition-all duration-300 hover:scale-105 rounded-lg shadow-lg hover:shadow-glow"
             >
-              Cut AWS Costs
+              Cut Cloud Costs
             </a>
             <a 
               href="/tools" 
@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="mt-16 flex flex-wrap justify-center items-center gap-4 text-onyx/70">
             <div className="flex items-center">
               <i className="fas fa-check-circle text-pumpkin mr-2"></i>
-              <span>Save on AWS costs</span>
+              <span>Save on cloud costs</span>
             </div>
             <div className="w-1.5 h-1.5 rounded-full bg-onyx/30 hidden sm:block"></div>
             <div className="flex items-center">
